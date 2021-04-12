@@ -1,0 +1,22 @@
+module.exports = {
+    configureWebpack:{
+        resolve:{
+            extensions:[],
+            alias:{
+                'assets':'@/assets',
+                'image':'assets/image',
+                'css':'assets/css',
+                'common':'@/common',
+                'components':'@/components',
+                'ccommon':'components/common',
+                'content':'components/content',
+                'network4axios':'@/network4axios',
+                'router':'@/router',
+                'views':'@/views',
+                'category':'views/category',
+                'home':'views/home',
+                'vuexstore':'@/vuexstore',
+            }
+        }
+    }
+}
