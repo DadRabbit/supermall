@@ -1,9 +1,9 @@
 <template>
   <div>
   <swiper><!--轮播图组件-->
-    <swiper-item v-for="item in banners">
-      <a :href="item.link">
-        <img :src="item.image">
+    <swiper-item v-for="(swiperItem,index) in banners" :key="index" >
+      <a :href="swiperItem.link">
+        <img :src="swiperItem.image">
       </a>
     </swiper-item>
   </swiper>
